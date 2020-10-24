@@ -1,6 +1,6 @@
 #include "FastLED.h"
 
-#define NUM_LEDS 300        // How many leds in strip
+#define NUM_LEDS 60//300        // How many leds in strip
 #define updateLEDS 8        // How many do you want to update every millisecond
 #define COLOR_SHIFT 180000  // Time for colours to shift to a new spectrum (in ms)
 CRGB leds[NUM_LEDS];        // Define array of leds
