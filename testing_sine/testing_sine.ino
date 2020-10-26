@@ -52,8 +52,15 @@ void FillLEDsFromPaletteColors(uint8_t hue, uint8_t brightness, uint8_t saturati
   }
 }
 
+/* Get the pitch frequency */
 float getFreq() {
-  return 250; // 250 Hz
+  return 800; // 250 Hz
+}
+
+/* Get the volume amplitude 
+   returns a number from 0 to 5 */
+float getAmp(){
+  return 3;
 }
 
 void loop() { 
